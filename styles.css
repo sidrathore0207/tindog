@@ -1,0 +1,135 @@
+body{
+    font-family: "Montserrat";
+    
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 5%;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+.big-heading{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.download-button{
+    margin: 5% 3% 3% 0;
+}
+.title-img{
+     width: 20%;
+    margin-left: 10%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+}
+.feature-box{
+    text-align: center;
+    padding: 2%;
+}
+
+
+/* testimonial */
+
+#testimonials{
+  
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing */
+
+#pricing{
+    padding: 7% 10%;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width:1128px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        margin-top: 10%;
+    }
+}
+
+/* call to action*/
+
+#cta{
+    padding: 7% 18%;
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 5%;
+    text-align: center;
+}
+#footer{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+.foot{
+    margin-left: 20px;
+}

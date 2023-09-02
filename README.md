@@ -1,2 +1,1 @@
-# tindog
-tindog  to provide shelter to animals
+TinDog Starting Files
